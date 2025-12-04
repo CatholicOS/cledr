@@ -12,4 +12,5 @@ and all language editions of the Roman Missal are based off of the Latin Editio 
 The Roman Missal is a living source, inasmuch as it can be revised and new editions can be published.
 Liturgical celebrations from the Temporale and the Sanctorale cycles can be added or removed from one edition to the next.
 Consequently, the CLEDR will need to be revised with each new edition of the Latin Roman Missal.
-The year in which any given Editio Typica or revised edition of an Editio Typica was published shall be a sub-property of all canonicalized ids in the CLEDR.
+The year in which any given Editio Typica or revised edition of an Editio Typica was published shall be a sub-property of all canonicalized ids in the CLEDR,
+and shall be referred to via its canonicalized id as set in the [Common Roman Missal Editio Typica Data Repository](https://github.com/CatholicOS/crmetdr).
