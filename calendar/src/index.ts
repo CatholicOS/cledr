@@ -210,13 +210,6 @@ export {
 export type { FragmentNames } from './fragments';
 
 // =============================================================================
-// VERSION INFO
-// =============================================================================
-
-export const VERSION = '1.0.0';
-export const CLEDR_STANDARD = '1.0';
-
-// =============================================================================
 // LITURGICAL COLORS (GIRM)
 // =============================================================================
 
@@ -245,3 +238,65 @@ export {
   // Utilities
   getCommonPath
 } from './commons';
+
+// =============================================================================
+// CONFIGURATION (Regional/National)
+// =============================================================================
+
+export {
+  // Missal editions
+  MissaleRomanum,
+  MissaleRomanumInfo,
+
+  // Moveable feast configuration
+  AscensioConfig,
+  CorpusChristiConfig,
+  EpiphaniaConfig,
+
+  // Calendar config
+  DEFAULT_CONFIG,
+  NATIONAL_CONFIGS,
+  getCalendarConfig,
+  createCalendarConfig,
+
+  // US-specific
+  US_ASCENSION_THURSDAY_PROVINCES,
+  usAscensionIsThursday
+} from './config';
+
+export type { CalendarConfig, DioceseConfig } from './config';
+
+// =============================================================================
+// INTERNATIONALIZATION (i18n)
+// =============================================================================
+
+export {
+  // Supported locales
+  SUPPORTED_LOCALES,
+  LOCALE_NAMES,
+
+  // Translation tables
+  TempusI18n,
+  GradusI18n,
+  ColorI18n,
+  DiesI18n,
+  TermsI18n,
+  OrdinalesI18n,
+
+  // Helper functions
+  getSeasonName,
+  getRankName,
+  getLocalizedColorName,
+  getDayName,
+  getTerm,
+  formatWeekName
+} from './i18n';
+
+export type { Locale } from './i18n';
+
+// =============================================================================
+// VERSION INFO
+// =============================================================================
+
+export const VERSION = '1.1.0';
+export const CLEDR_STANDARD = '1.0';
