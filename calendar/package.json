@@ -1,0 +1,51 @@
+{
+  "name": "@cledr/calendar",
+  "version": "1.0.0",
+  "description": "CLEDR Liturgical Calendar - Complete Roman Rite calendar with Latin enumerations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "liturgical",
+    "calendar",
+    "catholic",
+    "roman-rite",
+    "cledr",
+    "easter",
+    "computus",
+    "sanctorale",
+    "temporale"
+  ],
+  "author": "CatholicOS Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catholicOS/cledr-calendar"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^4.0.15"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
