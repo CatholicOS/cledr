@@ -215,3 +215,33 @@ export type { FragmentNames } from './fragments';
 
 export const VERSION = '1.0.0';
 export const CLEDR_STANDARD = '1.0';
+
+// =============================================================================
+// LITURGICAL COLORS (GIRM)
+// =============================================================================
+
+export {
+  LitColor,
+  LitColorI18n,
+  getSeasonColor,
+  getColorName
+} from './colors';
+
+// =============================================================================
+// COMMON TEXTS (COMMUNE)
+// =============================================================================
+
+export {
+  // Main categories
+  LitCommon,
+  LitCommonLatin,
+
+  // Subcategories
+  LitCommonMartyrs,
+  LitCommonPastors,
+  LitCommonVirgins,
+  LitCommonSaints,
+
+  // Utilities
+  getCommonPath
+} from './commons';
