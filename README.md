@@ -24,4 +24,8 @@ The [liturgical_events.md](liturgical_events.md) document contains the current s
 - **RomCal API** (`romcal_key`): IDs from the [RomCal](https://github.com/romcal/romcal) liturgical calendar library
 - **ePrex app** (`eprex_key`): IDs from the [ePrex](https://www.eprex.org/) app (partial coverage, some celebrations marked as missing)
 
+The [calendarium-romanum](https://github.com/igneus/calendarium-romanum) Ruby gem was considered but is not currently included, as its HTTP API does not expose celebration identifiers.
+
 The goal is to establish a unified, canonical identifier system that can serve as a reference for interoperability between different liturgical calendar implementations.
+
+The scripts used to generate the mappings and documentation are available in the [liturgical-calendar-ids](https://github.com/JohnRDOrazio/liturgical-calendar-ids) repository.
