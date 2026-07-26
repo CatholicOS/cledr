@@ -29,3 +29,5 @@ The [calendarium-romanum](https://github.com/igneus/calendarium-romanum) Ruby ge
 The goal is to establish a unified, canonical identifier system that can serve as a reference for interoperability between different liturgical calendar implementations.
 
 The scripts used to generate the mappings and documentation are available in the [liturgical-calendar-ids](https://github.com/JohnRDOrazio/liturgical-calendar-ids) repository.
+
+While the canonical ID scheme is still being decided, [docs/identifier-durability.md](docs/identifier-durability.md) collects what the crosswalk itself already records about identifier drift — the Martha/Mary/Lazarus row that three schemes each resolved differently, the `0120`/`0120a`/`0120b` date-collision repair, and the Pio/Edith Stein/Mother Teresa key divergence — and shows the same rows under a machine-readable canonical identifier that keeps every existing litcal, romcal, and ePrex key working as a permanent alias, with multilingual labels carrying the human-readable layer.
