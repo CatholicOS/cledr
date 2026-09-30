@@ -29,3 +29,7 @@ The [calendarium-romanum](https://github.com/igneus/calendarium-romanum) Ruby ge
 The goal is to establish a unified, canonical identifier system that can serve as a reference for interoperability between different liturgical calendar implementations.
 
 The scripts used to generate the mappings and documentation are available in the [liturgical-calendar-ids](https://github.com/JohnRDOrazio/liturgical-calendar-ids) repository.
+
+## License
+
+The data and documentation in this repository are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/) (CC BY-NC-ND 4.0). See [`LICENSE`](LICENSE) for the full legal code.
